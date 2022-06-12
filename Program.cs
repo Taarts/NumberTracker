@@ -43,7 +43,10 @@ namespace NumberTracker
                 else
                 {
                     // Parse the number and add it to the list of numbers
+
                     var number = int.Parse(input);
+                    //  the above is a sticking point for the "create" csv file
+
                     numbers.Add(number);
                 }
             }
